@@ -1,0 +1,129 @@
+body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navigation */
+
+.navigation-wrapper {
+    height: 190px;
+    background-color: rgb(9, 9, 15);
+    color: #cbcbcb;
+    /* flexbox-container */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px;
+}
+
+
+
+.navigation-wrapper>.left-column {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.navigation-wrapper>.left-column>.icon {
+    margin-right: 15px;
+}
+
+.phone {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+    color: rgb(240, 14, 127);
+}
+
+
+
+.navigation-wrapper>.left-column>.icon i {
+    font-size: 2em;
+
+}
+
+
+.navigation-wrapper>.left-column>.contact-hours-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+
+
+.navigation-wrapper>.center-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 42px;
+    width: 500px;
+}
+
+
+
+.center-column>.banner-image {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.center-column>.banner-image img {
+    width: 500px;
+    height: 100%;
+    margin-left: 80px;
+}
+
+
+
+.center-column>.links-wrapper>.nav-link a {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(240, 14, 127);
+    transition: .5s;
+}
+
+
+.center-column>.links-wrapper>.nav-link a:hover {
+    color: rgb(66, 10, 219);
+    letter-spacing: 4px;
+}
+
+.center-column>.links-wrapper>.nav-link {
+    width: 500px;
+    margin-left: 65px;
+}
+
+
+.navigation-wrapper>.right-column>.address-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 10px;
+}
+
+
+
+.navigation-wrapper>.right-column>.address-wrapper>.icon-nav {
+
+    color: rgb(240, 14, 127);
+
+}
+
+
+
+.navigation-wrapper>.right-column>.address-wrapper>.icon-nav {
+    margin-left: 100px;
+}
+
+
+.navigation-wrapper>.right-column>.address-wrapper>.icon-nav i {
+    font-size: 2em;
+
+}
+
+.links-wrapper>.nav-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
