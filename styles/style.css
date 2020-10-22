@@ -1,22 +1,6 @@
-body {
-    margin: 0px;
-    font-family: 'Roboto', sans-serif;
-}
-
-/* Navigation */
-
-.navigation-wrapper {
-    height: 190px;
-    background-color: rgb(9, 9, 15);
-    color: #cbcbcb;
-    /* flexbox-container */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 60px 100px;
-}
 
 
+/* Left column styles */
 
 .navigation-wrapper>.left-column {
     display: flex;
@@ -25,9 +9,8 @@ body {
 
 
 
-
 .navigation-wrapper>.left-column>.icon {
-    margin-right: 15px;
+    margin-right:10px;
 }
 
 .phone {
@@ -39,7 +22,7 @@ body {
 
 
 .navigation-wrapper>.left-column>.icon i {
-    font-size: 2em;
+    font-size: 1.6em;
 
 }
 
@@ -47,10 +30,21 @@ body {
 .navigation-wrapper>.left-column>.contact-hours-wrapper {
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 10px;
+    grid-gap: 5px;
+}
+
+.navigation-wrapper>.left-column>.contact-hours-wrapper>.phone {
+    width: 150px;
+    font-size: 12px;
+}
+.e-mail {
+
+    font-size: 15px;
 }
 
 
+
+/* Center column styles */
 .navigation-wrapper>.center-column {
     display: grid;
     grid-template-columns: 1fr;
@@ -95,7 +89,13 @@ body {
     margin-left: 65px;
 }
 
+.links-wrapper>.nav-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+/* Right column styles */
 .navigation-wrapper>.right-column>.address-wrapper {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -104,9 +104,11 @@ body {
 
 
 
-.navigation-wrapper>.right-column>.address-wrapper>.icon-nav {
+.navigation-wrapper>.right-column>.address-wrapper>.icon-nav a {
 
     color: rgb(240, 14, 127);
+    text-decoration: none;
+    margin-right: 5px;
 
 }
 
@@ -118,12 +120,26 @@ body {
 
 
 .navigation-wrapper>.right-column>.address-wrapper>.icon-nav i {
-    font-size: 2em;
+    font-size: 1.5em;
 
 }
 
-.links-wrapper>.nav-link {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.navigation-wrapper>.right-column>.address-wrapper>.icon-nav i:hover {
+    color: rgb(66, 10, 219);
+
+
+}
+
+.navigation-wrapper>.right-column>.address-wrapper>.icon-nav>.address,
+a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #cbcbcb;
+    transition: .5s;
+    font-size: 15px;
+}
+
+.navigation-wrapper>.right-column>.address-wrapper>.icon-nav>.address,
+a:hover {
+    color: rgb(66, 10, 219);
 }
