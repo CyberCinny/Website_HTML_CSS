@@ -14,3 +14,13 @@ body {
     text-align: center;
     
 }
+/* 
+skewed-header section */
+.skewed-header{
+    position: relative;
+    height: 400px;
+}
+
+.header-bg{
+    height: 400px;
+}
