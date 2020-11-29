@@ -1,7 +1,11 @@
 body {
     margin: 0px;
     font-family: 'Roboto', sans-serif;
+    /* background-color: black;
+    color: hotpink; */
 }
+
+
 
 /* commen footer styles */
 
@@ -19,8 +23,48 @@ skewed-header section */
 .skewed-header{
     position: relative;
     height: 400px;
+    overflow: hidden;
 }
 
-.header-bg{
-    height: 400px;
+.skewed-header > .header-bg{
+    position: absolute;
+    top: 0;
+    left: 0 ;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size:100%;
+    transform: skewY(-6deg);
+    transform-origin: top left;
+    filter:brightness(50%);
+
 }
+.skewed-header >.skewed-header-content{
+position: absolute;
+display: flex;
+justify-content:center;
+width: 100vh;
+align-items: center;
+background-color:rgb(0, 0, 255);
+color:black;
+border-bottom-left-radius: 2px;
+width: 175px;
+}
+
+.skewed-header >.skewed-header-wrapper >.skewed-header-content > .heading-wrapper > .links-wrapper> .nav-link{
+    width:1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+
+
+/* 
+.skewed-header > .skewed-header-wrapper >.skewed-header-content 
+> .skewed-header-wrapper{ */
+
+
+
+
