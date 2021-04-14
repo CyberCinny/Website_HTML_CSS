@@ -1,128 +1,92 @@
 /* Left column styles */
 .navigation-wrapper {
-    display: grid;
-    justify-content: space-around;
-    grid-gap: 42px;
-    width: 100%;
+  display: grid;
+  justify-content: space-around;
+  grid-gap: 42px;
+  width: 100%;
 }
 
-.navigation-wrapper>.banner-image>img {
-    margin-right:200px;
-    width: 400px;
+.navigation-wrapper > .banner-image > img {
+  margin-right: 200px;
+  width: 400px;
+}
+@media screen and (max-width: 575px) {
+    .navigation-wrapper > .banner-image > img{
+    width: 300px;
+    padding-top: 8%;
+    margin-left:5%;
+  }
+
 }
 
-.center-column>.links-wrapper>.nav-link a {
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Shadows Into Light', cursive;
-    font-size: 20px;
-    text-decoration: none;
-    color: rgb(240, 14, 127);
-    transition: .5s;
+.center-column > .links-wrapper > .nav-link a {
+  font-family: "Roboto", sans-serif;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(240, 14, 127);
+  transition: 0.5s;
 }
 
-
-.center-column>.links-wrapper>.nav-link a:hover {
-    color: rgb(66, 10, 219);
-    letter-spacing: 4px;
-} 
-
-.navigation-wrapper>.center-column>.links-wrapper>.nav-link {
-    width:300px;
-    margin-left:35px;
+.center-column > .links-wrapper > .nav-link a:hover {
+  color: rgb(66, 10, 219);
+  letter-spacing: 4px;
 }
 
-.links-wrapper>.nav-link {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-} 
+.navigation-wrapper > .center-column > .links-wrapper > .nav-link {
+  width: 300px;
+  margin-left: 35px;
+}
+
+.links-wrapper > .nav-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 /* Header-end */
 
-.navigation-wrapper>.right-column>.address-wrapper>.icon-nav i {
-    font-size: 1.5em;
+.navigation-wrapper > .right-column > .address-wrapper > .icon-nav i {
+  font-size: 1.5em;
+}
 
-} 
-
-.navigation-wrapper>.right-column>.address-wrapper>.icon-nav i:hover {
-    color: rgb(66, 10, 219);
+.navigation-wrapper > .right-column > .address-wrapper > .icon-nav i:hover {
+  color: rgb(66, 10, 219);
 }
 
 /* footer_section */
 
 .myend {
-    /* height: 100px; */
-    background-color: black;
-    border-top: 10px solid transparent;
-    font-family: 'Bebas Neue', cursive;
-    color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  /* height: 100px; */
+  background-color: black;
+  border-top: 10px solid transparent;
+  font-family: "Bebas Neue", cursive;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.myend>.right-column>.logo_under img {
-    margin-top: 15px;
-    width: 100px;
-    height: 100%;
-   margin-left:20px;
-   margin-bottom: -10px;
+.myend > .right-column > .logo_under img {
+  margin-top: 15px;
+  width: 100px;
+  height: 100%;
+  margin-left: 20px;
+  margin-bottom: -10px;
 }
 
 .phone {
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Shadows Into Light', cursive;
-    color: rgb(240, 14, 127);
-    font-size: 10px  ;
-    margin-left: 10px;
-} 
+  font-family: "Roboto", sans-serif;
+  font-family: "Shadows Into Light", cursive;
+  color: rgb(240, 14, 127);
+  font-size: 10px;
+  margin-left: 10px;
+}
 .e-mail {
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Shadows Into Light', cursive;
-    color: rgb(240, 14, 127);
-    font-size: 10px  ;
-    text-align: center;
-    margin-right: 10px;
-    
+  font-family: "Roboto", sans-serif;
+  font-family: "Shadows Into Light", cursive;
+  color: rgb(240, 14, 127);
+  font-size: 10px;
+  text-align: center;
+  margin-right: 10px;
 }
-
-
-
-
-
-/* Site aangepast */
-
-/* .navigation-wrapper>.left-column {
-    display: flex;
-    align-items: center;
-} */
-
-/* .navigation-wrapper>.left-column>.icon {
-    margin-right: 10px;
-} */
-
-/* 
-.navigation-wrapper>.left-column>.contact-hours-wrapper {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 5px;
-} */
-/* .navigation-wrapper>.right-column>.address-wrapper {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-gap: 10px;
-} */
-
-/* .navigation-wrapper>.right-column>.address-wrapper>.icon-nav>.address,
-a {
-    margin-right: 10px;
-    text-decoration: none;
-    color: #cbcbcb;
-    transition: .5s;
-    font-size: 10px;
-}
-
-.navigation-wrapper>.right-column>.address-wrapper>.icon-nav>.address,
-a:hover {
-    color: rgb(66, 10, 219);
-} */
