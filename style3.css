@@ -1,3 +1,14 @@
-.mobile{
-    text-align: center;
+body {
+  margin: 0;
 }
+.mobile {
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+/* Portfolio style  */
+
