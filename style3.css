@@ -66,3 +66,8 @@ position:relative;
   transition:1s;
   filter:brightness(10%);
 }
+
+.subtitle{
+  margin-top:-5%;
+    text-align: left;
+}
