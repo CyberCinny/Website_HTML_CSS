@@ -1,8 +1,141 @@
-.contact-form{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 22%;
-    padding-top:5%;
+.contact-form {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 22%;
+  padding-top: 5%;
 }
+
+:root {
+  --contactFormBody: black;
+  --contactColor: rgb(255, 99, 99);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.main{
+    background-color: var(--maincolor);
+    height: 100vh;
+    overflow: auto;
+    padding: 25px;
+}
+.main .fullpage .getintouch{
+    padding: 20px 0;
+}
+.main .fullpage .getintouch .getintouch-title{
+    color: white;
+    font-family: var(--mainfont);
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+.main .fullpage .contactpage .column{
+    background-color: var(--contactcolor);
+    padding: 25px;
+    border: 4px solid var(--maincolor);
+    border-radius: 15px;
+}
+/* -------------------------Left column----------------------------- */
+.main .fullpage .contactpage .left .contact-title{
+    color: var(--maincolor);
+    font-size: 2rem;
+    font-family: var(--titlefont);
+}
+.main .fullpage .contactpage .left .contact-subtitle{
+    color: black;
+    font-size: 1rem;
+    font-family: var(--subtitlefont);
+    text-align: justify;
+}
+.main .fullpage .contactpage .left .contact-info .fa{
+    font-size: 1.2rem;
+    color: var(--maincolor);
+}
+.main .fullpage .contactpage .left .contact-info{
+    margin: 10px;
+}
+.main .fullpage .contactpage .left .contact-info .contactinfo-title{
+    font-family: var(--titlefont);
+    padding-left: 8px;
+    text-transform: uppercase;
+}
+.main .fullpage .contactpage .left .contact-info .contactinfo-subtitle{
+    font-family: var(--subtitlefont);
+    color: black;
+    margin: 0;
+    font-size: 1rem;
+    padding-left: 25px;
+}
+/* ---------------------------------right column------------------------------- */
+.main .fullpage .contactpage .right .formpage .form label{
+    display: block;
+    font-family: var(--titlefont);
+    color: var(--maincolor);
+    font-size: 1.2rem;
+}
+.main .fullpage .contactpage .right .formpage .form input{
+    display: block;
+    width: 100%;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(237, 237, 237);
+    padding: 15px;
+    font-family: var(--subtitlefont);
+    margin-bottom: 10px;
+}
+.main .fullpage .contactpage .right .formpage .form input:focus{
+    border: 1px solid black;
+    height: 50px;
+    transition: 0.3s;
+}
+.main .fullpage .contactpage .right .formpage .form .messagebox{
+    display: block;
+    width: 100%;
+    height: 100px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(237, 237, 237);
+    padding: 15px;
+    font-family: var(--subtitlefont);
+    margin-bottom: 10px;
+}
+.main .fullpage .contactpage .right .formpage .form .messagebox:focus{
+    border: 1px solid black;
+    height: 120px;
+    transition: 0.3s;
+}
+.main .fullpage .contactpage .right .formpage .form .button{
+    padding: 5px 10px;
+    color: white;
+    background-color: var(--maincolor);
+    font-size: 1.2rem;
+    font-family: var(--mainfont);
+    border-radius: 10px;
+}
+.main .fullpage .contactpage .right .formpage .form .button:hover{
+    color: var(--maincolor);
+    border: 2px solid var(--maincolor);
+    background-color: white;
+    transition: 0.3s;
+}
+
+
+
+
+
+
+
+
+
+
+
 
