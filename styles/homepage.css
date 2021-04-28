@@ -12,11 +12,7 @@
   /* width: auto; */
 }
 
-/* @media screen and (min-width: 575px) {
-  .hero-section {
-  
-  }
-} */
+
 
 .hero-section > .top-heading h1 {
   font-family: "Bebas Neue", cursive;
@@ -29,14 +25,7 @@
   padding: 1px 20px;
 }
 
-/* @media screen and (min-width: 575px) {
-  .hero-section > .top-heading h1 {
-    border-radius: 2px;
-    padding: 1px 20px;
-    position: absolute;
-    bottom: 100px;
-  }
-} */
+
 
 .hero-section > .top-heading > .bottom-heading-section,
 h3 {
@@ -51,13 +40,7 @@ h3 {
   padding: 1px 20px;
 }
 
-/* @media screen and (min-width: 575px) {
-  .hero-section > .top-heading > .bottom-heading-section,
-  h3 {
-    position: absolute;
-    bottom: 50px;
-  }
-} */
+
 
 /* bottom-section */
 
@@ -77,29 +60,20 @@ h3 {
   color: rgb(240, 14, 127);
   text-decoration: none;
 }
-@media screen and (max-width: 575px) {
-  .bottom_section {
-    justify-content: center;
-    width: 50rem;
-  }
+
   .bottom_section a {
     justify-content: center;
     color: rgb(240, 14, 127);
     text-decoration: none;
   }
-}
+
 
 .bottom_section > .column-wrapper {
   width: 1000px;
   display: flex;
   justify-content: space-between;
 }
-/* @media screen and (min-width: 575px) {
-  .bottom_section > .column-wrapper {
-    margin-right: 53%;
-    justify-content: center;
-  }
-} */
+
 
 .bottom_section > .column-wrapper > .column {
   padding: 20px;
@@ -110,11 +84,7 @@ h3 {
   transition: 1s;
 }
 
-@media screen and (min-width: 575px) {
-  .bottom_section > .column-wrapper > .column {
-    margin: 0px;
-  }
-}
+
 
 .bottom_section > .column-wrapper > .column:hover {
   border-bottom: 5px solid lawngreen;
