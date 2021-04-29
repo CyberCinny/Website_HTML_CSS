@@ -1,7 +1,23 @@
 
-@media(max-width:615px){
-    .navigation-wrapper{
-    flex-direction: column;
-    height:100%;
-    }
+@media (max-width:615px) {
+  .navigation-wrapper > .banner-image > img {
+    margin-left: 16%;
+    width:340px;
+  }
+
+  .navigation-wrapper > .center-column > .links-wrapper > .nav-link {
+    width: 240px;
+    margin-left: 23%;
+  }
+
+  .hero-section {
+    
+    background-size: 80%;
+  }
+
+  .bottom_section > .column-wrapper > .column {
+    padding:0; 
+  }
+  
+
 }
