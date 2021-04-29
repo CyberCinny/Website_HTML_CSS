@@ -1,3 +1,12 @@
+@media (max-width:500px){
+    .portfolio-items-wrapper {
+        display:  unset;  
+    
+    }
+}
+
+
+
 
 @media (max-width:615px) {
   .navigation-wrapper > .banner-image > img {
