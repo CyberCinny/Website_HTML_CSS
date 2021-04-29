@@ -1,2 +1,2 @@
-Website_HTML_CSS/javaScript 
+Website_HTML_CSS/JavaScript 
 My first portfolio
